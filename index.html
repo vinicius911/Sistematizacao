@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Barbearia</title>
+  <meta description="Barbearia"/>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="public/logo.png" alt="Logo">
+      </div>
+      <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li>
+          <a href="#produtos">
+            Produtos
+          </a>
+        </li>
+        <li>
+          <a href="#contato">
+            Contato
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <div class="content">
+      <div class="text-section">
+        <h1>A Barbearia</h1>
+        <p class="text">
+          Bem-vindo à nossa barbearia! Estamos localizados no coração da
+          cidade, oferecendo serviços de qualidade para
+          homens de todas as idades. Nossos experientes barbeiros estão
+          prontos para cuidar do seu visual, desde cortes
+          de
+          cabelo modernos até um barbear suave e preciso. Além disso,
+          oferecemos uma ampla variedade de produtos de
+          cuidados masculinos para você levar para casa e manter seu estilo
+          impecável. Venha nos visitar e saia com um
+          visual incrível!
+        </p>
+        <h2>Nosso diferencial</h2>
+        <p class="text">Na nossa barbearia, oferecemos um diferencial
+          exclusivo: o serviço de atendimento a domicílio.
+          Reconhecemos que
+          nem todos os clientes têm tempo ou disponibilidade para vir até a
+          barbearia, então trouxemos a barbearia até
+          você.
+
+          Com o nosso serviço de atendimento a domicílio, você pode desfrutar
+          dos mesmos cortes de cabelo e barba de
+          alta
+          qualidade, mas no conforto da sua própria casa. Nossos experientes
+          barbeiros chegarão ao seu endereço com
+          todos
+          os equipamentos necessários, prontos para fornecer um serviço
+          personalizado e conveniente.</p>
+        <div class="location">
+          <h2>Localização</h2>
+          <div class="map">
+            <img src="public/pin.png" alt="Pin">
+          </div>
+          <p>Endereço: Rua Principal, 123 - Brasília-DF</p>
+          <p>Telefone: (00) 1234-5678</p>
+        </div>
+      </div>
+      <div class="image-section">
+        <img src="public/barbeiro.jpg" alt="Homem fazendo a barba">
+      </div>
+    </div>
+
+    <div class="text-produtos" id="produtos">
+      <h2>Produtos</h1>
+    </div>
+    <div class="products-section">
+      <div class="product-card">
+        <h3>Cabelo</h3>
+        <div class="image">
+          <img src="public/cabelo.png" alt="Cabelo">
+        </div>
+        <div class="value">
+
+          <p>R$ 60</p>
+        </div>
+      </div>
+      <div class="product-card">
+        <h3>Barba</h3>
+        <div class="image">
+          <img src="public/Barba.png" alt="Barba">
+        </div>
+        <div class="value">
+
+          <p>R$ 60</p>
+        </div>
+      </div>
+      <div class="product-card">
+        <h3>Cabelo e Barba</h3>
+        <div class="image">
+          <img src="public/cabelo+barba.png" alt="Cabelo e Barba">
+        </div>
+        <div class="value">
+
+          <p>R$ 110</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-content">
+        <div class="section-text">
+          <h2>A Cada Corte, uma Cerveja!</h2>
+          <p>Aproveite nossa promoção especial: a cada corte de cabelo ou
+            barba, ganhe uma cerveja gelada para
+            refrescar!
+          </p>
+        </div>
+        <div class="section-image">
+          <img src="public/cerveja.jpg" alt="Cerveja">
+        </div>
+      </div>
+    </div>
+
+    <div class="text-produtos">
+      <h2>Nossa equipe</h2>
+    </div>
+
+    <div class="team-section">
+      <div class="team-card">
+        <h3>Chris</h3>
+        <div class="team-image">
+          <img src="public/Cabelereiro.webp" alt="Membro da Equipe">
+        </div>
+        <p>Cabelereiro</p>
+      </div>
+
+      <div class="team-card">
+        <h3>Andrew</h3>
+        <div class="team-image">
+          <img src="public/andrew.jpg" alt="Membro da Equipe">
+        </div>
+        <p>Barbeiro</p>
+      </div>
+
+      <div class="team-card">
+        <h3>Tony</h3>
+        <div class="team-image">
+          <img src="public/Robert.jpg" alt="Membro da Equipe">
+        </div>
+        <p>Visagista</p>
+      </div>
+    </div>
+
+    <div class="text-produtos">
+      <h2>Contato</h2>
+    </div>
+
+    <div class="form-card" id="contato" style="margin-bottom: 100px;">
+      <div class="form-section">
+        <h2>Deixe aqui seus dados para saber mais sobre seu corte de cabelo em
+          casa</h2>
+        <form>
+          <div class="form-row">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-row">
+            <label for="email">Email para contato:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-row">
+            <label for="phone">Telefone para contato:</label>
+            <input type="tel" id="phone" name="phone" required>
+          </div>
+          <div class="form-row">
+            <label for="city">Cidade:</label>
+            <input type="text" id="city" name="city" required>
+          </div>
+          <div class="form-row">
+            <label for="state">Estado:</label>
+            <input type="text" id="state" name="state" required>
+          </div>
+
+          <div>
+            <button class="submit-button" type="submit">
+              Agendar
+            </button>
+          </div>
+
+        </form>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
